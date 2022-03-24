@@ -5,8 +5,6 @@
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.5.1",
     "@mui/material": "^5.5.2",
     "@testing-library/jest-dom": "^5.16.2",
@@ -14,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "add": "^2.0.6",
     "fontsource-roboto": "^4.0.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -24,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist",
+    "pre-deploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
