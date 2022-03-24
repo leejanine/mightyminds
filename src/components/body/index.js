@@ -67,7 +67,7 @@ const Body = () => {
               underline="always"
               color="inherit"
               css={css`
-                padding-left: 90px;
+                padding-left: 272px;
               `}
             >
               View all classes
